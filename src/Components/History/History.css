@@ -1,0 +1,36 @@
+.history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 45%;
+}
+
+/*History-Head*/
+.history-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.history-head > i {
+  color: #fff;
+  padding-left: 3%;
+}
+
+.history-head > h3 {
+  color: #fff;
+  margin-left: 5%;
+}
+
+/*History-Body*/
+.history-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}

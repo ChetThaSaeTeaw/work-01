@@ -1,0 +1,35 @@
+.ambassadors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin: 25% 0px 0px 0px;
+}
+
+.ambassadors-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.ambassadors-head > i {
+  color: #fff;
+  padding-left: 3%;
+}
+
+.ambassadors-head > h3 {
+  color: #fff;
+  margin-left: 5%;
+}
+
+.ambassadors-container > p {
+  color: #fff;
+  margin: 4% 2%;
+}
+
+.ambassadors-container > img {
+  width: 80%;
+  height: 450px;
+}

@@ -1,0 +1,25 @@
+.top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.top-content > img {
+  width: 100%;
+}
+
+.top-content > p {
+  color: #fff;
+  line-height: 1.5rem;
+  margin: 10px 0 15px 0;
+}
+
+.top-content > i {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 5%;
+}

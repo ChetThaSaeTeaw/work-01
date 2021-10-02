@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import { Switch, Route } from "react-router-dom";
+import TopContent from './Components/TopContent/TopContent';
+import History from './Components/History/History';
+import Geography from './Components/Geography/Geography';
+import Sponsorships from './Components/Sponsorships/Sponsorships';
+import Ambassadors from './Components/Ambassadors/Ambassadors';
+import Promo from './Components/Promo/Promo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Switch>
+          <Route path="/">
+            <Navbar />
+            <TopContent />
+            <History />
+            <Geography />
+            <Sponsorships />
+            <Ambassadors />
+            <Promo />
+          </Route>
+        </Switch>
     </div>
   );
 }

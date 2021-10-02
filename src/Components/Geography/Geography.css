@@ -1,0 +1,34 @@
+.geography-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin: 25% 0px 0px 0px;
+}
+
+.geography-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.geography-head > i {
+  color: #fff;
+  padding-left: 3%;
+}
+
+.geography-head > h3 {
+  color: #fff;
+  margin-left: 5%;
+}
+
+.geography-container > p {
+  color: #fff;
+  margin: 4% 2%;
+}
+
+.geography-container > img {
+  width: 100%;
+}

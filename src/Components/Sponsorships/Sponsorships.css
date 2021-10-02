@@ -1,0 +1,44 @@
+.sponsorships-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin: 25% 0px 0px 0px;
+}
+
+.sponsorships-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.sponsorships-head > i {
+  color: #fff;
+  padding-left: 3%;
+}
+
+.sponsorships-head > h3 {
+  color: #fff;
+  margin-left: 5%;
+}
+
+.sponsorships-container > p {
+  color: #fff;
+  margin: 4% 2%;
+}
+
+.sponsorships-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.sponsorships-logo > img {
+  width: 100%;
+  height: 13vh;
+  margin: 0 2.5%;
+}

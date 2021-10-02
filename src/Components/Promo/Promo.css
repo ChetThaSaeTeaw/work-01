@@ -1,0 +1,61 @@
+.promo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin: 25% 0px 0px 0px;
+}
+
+.promo-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.promo-head > i {
+  color: #fff;
+  padding-left: 3%;
+}
+
+.promo-head > h3 {
+  color: #fff;
+  margin-left: 5%;
+}
+
+.promo-container > p {
+  color: #fff;
+  margin: 4% 2%;
+}
+
+.promo-container > img {
+  width: 80%;
+  height: 450px;
+}
+
+.promo-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.promo-carousel > img {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.promo-container > i {
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 15px 0 10% 10px;
+  transition: all ease-in-out 0.2s;
+}
+
+.promo-container > i:hover {
+  color: yellow;
+}
